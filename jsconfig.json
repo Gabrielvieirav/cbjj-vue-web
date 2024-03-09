@@ -1,0 +1,10 @@
+{
+  "target": "es2022",
+  "module": "commonjs",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
