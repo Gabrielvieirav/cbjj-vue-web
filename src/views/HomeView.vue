@@ -38,7 +38,7 @@ export default {
                         <p id="dados">Coloque seus dados!</p>
                     </div>
                 </div>
-                <label for="name1" class="block text-900 font-medium mb-2"><p id="nome">Nome</p></label>
+                <label for="name1" class="block text-900 font-medium mb-2 "> <img src="../img/user.png" alt=""><p id="nome">Nome</p></label>
         <InputText id="name1" type="text" class="block text-900 font-medium mb-3" v-model ="name"/>
 
         <label for="email1" class="block text-900 font-medium mb-2"><p id="email">Email</p></label>
@@ -87,7 +87,7 @@ body{ /* Corpo da pagina */
     color: white;
 }
 
-/* Inicio do menu principal da segunda pagina */
+/* container com a img */
 .container-menu{  
     color: white;
     padding: 2.7%;
@@ -96,9 +96,7 @@ body{ /* Corpo da pagina */
     margin-top: 50px;
 
 }
-/*fim menu principal da pagina*/
-
-/*Inicio do formluario (login do aluno)*/
+/*Inicio do formluario */
 
 .container{
     width: 100%;
@@ -115,7 +113,7 @@ body{ /* Corpo da pagina */
     padding: 60 px;
     border-radius: 30px;
    background-color:#08687e;
-   height: 410px;
+   height: 450px;
    width: 330px;
    margin-top: 80px;
    
@@ -126,31 +124,10 @@ body{ /* Corpo da pagina */
     justify-content: center;
     align-items: center; 
 }
-
-.form-header{
-    font-size: 10px;
-}
-.form-header h1{
-    text-align: center;
-    padding: 1.5rem;
-    font-family: Bebas Neue;
-   
-}
-.input-group{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-}
-.input-box input{
-    border-radius: 6px;
-    border: none;
-    padding: 1.2rem 1.3rem;
-    padding-left: 55px;
-}
 .login-button button{
     text-align: center;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     border: none;
     background-color:#49afc9;
     cursor: pointer;    
@@ -179,4 +156,5 @@ margin-top: 30px;
     color: white;
     font-size: 15px;
 }
+
 </style>
