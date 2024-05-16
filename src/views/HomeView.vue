@@ -47,7 +47,7 @@ export default {
         <label for="number1" class="block text-900 font-medium mb-2"><p id="number">Number</p></label>
         <InputText id="number1" type="tel" class="w-full mb-3" v-model="number" />
                 <div class="login-button">
-                    <Button label="LOGIN" icon="pi pi-user" class="w-full" @click="logar()"></Button>
+                    <Button label="REGISTRAR" icon="pi pi-user" class="w-full" @click="logar()"></Button>
                 </div>
 
                 <div id="faleConosco">
@@ -129,7 +129,7 @@ body{ /* Corpo da pagina */
     width: 100%;
     margin-top: 0.5rem;
     border: none;
-    background-color:#49afc9;
+    background-color:#faa635;
     cursor: pointer;    
     padding: 0.5rem;
     border-radius: 10px;
